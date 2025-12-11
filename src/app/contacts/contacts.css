@@ -1,0 +1,70 @@
+.contacts-container {
+  background: linear-gradient(145deg, #0a0a0a, #111);
+  border: 2px solid #FFD700;
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 30px;
+  font-family: "Orbitron", sans-serif;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.contacts-container h1,
+.contacts-container h3 {
+  color: #FFD700;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+  border-bottom: 2px solid rgba(255, 215, 0, 0.4);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.contacts-container p,
+.contacts-container label {
+  color: #e0e0e0;
+}
+
+.contacts-container a {
+  color: #e0e0e0;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.contacts-container a:hover {
+  color: #FFD700;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+}
+
+.contacts-container i {
+  color: #FFD700;
+  margin-right: 6px;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+}
+
+/* Form Styling */
+.form-control {
+  background-color: #111;
+  border: 1px solid #FFD700;
+  color: #e0e0e0;
+  font-family: "Orbitron", sans-serif;
+}
+
+.form-control:focus {
+  background-color: #111;
+  border-color: #FFED4E;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+  color: #fff;
+}
+
+/* Button Styling */
+.zzz-btn {
+  background-color: #FFD700;
+  border: none;
+  font-weight: bold;
+  color: #0a0a0a;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.zzz-btn:hover {
+  background-color: #FFED4E;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 1);
+}

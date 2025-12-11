@@ -1,0 +1,56 @@
+/* Zenless Zone Zero Inspired Navbar - Black & Yellow */
+.zzz-navbar {
+  background: linear-gradient(90deg, #0a0a0a, #111); /* deep black gradient */
+  border-bottom: 2px solid #FFD700; /* yellow accent */
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
+}
+
+.zzz-navbar .navbar-brand {
+  color: #FFD700 !important;
+  font-size: 1.4rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+}
+
+.zzz-navbar .navbar-brand:hover {
+  color: #FFED4E !important; /* lighter yellow glow */
+  text-shadow: 0 0 10px rgba(255, 215, 0, 1);
+}
+
+.zzz-navbar .nav-link {
+  color: #e0e0e0 !important;
+  margin-left: 15px;
+  position: relative;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.zzz-navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #FFD700;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+}
+
+.zzz-navbar .nav-link:hover {
+  color: #FFD700 !important;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+}
+
+.zzz-navbar .nav-link:hover::after,
+.zzz-navbar .nav-link.active::after {
+  width: 100%;
+}
+
+.zzz-navbar .nav-link.active {
+  color: #FFD700 !important;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 1);
+}
+
